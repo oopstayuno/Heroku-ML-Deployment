@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Predict Price</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<h1 align="center">Prediction of Boston Price</h1>
+
+<div align="center">
+	<form action="/predict" method="post">
+		<label>CRIM</label>
+		<input type="text" name="crim"><br>
+		<label>ZN</label>
+		<input type="text" name="zn"><br>
+		<label>INDUS</label>
+		<input type="text" name="indus"><br>
+		<label>CHAS</label>
+		<input type="text" name="chas"><br>
+		<label>NOX</label>
+		<input type="text" name="nox"><br>
+		<label>RM</label>
+		<input type="text" name="rm"><br>
+		<label>AGE</label>
+		<input type="text" name="age"><br>
+		<label>DIS</label>
+		<input type="text" name="dis"><br>
+		<label>RAD</label>
+		<input type="text" name="rad"><br>
+		<label>TAX</label>
+		<input type="text" name="tax"><br>
+		<label>PTRATIO</label>
+		<input type="text" name="ptratio"><br>
+		<label>B</label>
+		<input type="text" name="b"><br>
+		<label>LSTAT</label>
+		<input type="text" name="lstat"><br>
+		<button type='submit'>Predict Price</button>
+	</form>
+</div>
+
+</body>
+</html>
